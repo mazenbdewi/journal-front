@@ -1,0 +1,27 @@
+{
+  "breadcrumb":{
+    "home": "Home",
+    "journals": "Journals"
+  },
+  "journals": {
+    "title": "Scientific Journals",
+    "subtitle": "Latest publications and academic research",
+    "issue": "Issue",
+    "issues": "issues",
+    "articles": "articles",
+    "scientific_journal": "Scientific Journal",
+    "academic_publishing": "Academic Publishing",
+    "no_journals": "No journals available",
+    "no_journals_message": "No journals have been added yet, they will appear here when available",
+    "default_description": "A peer-reviewed academic journal publishing the latest research and studies."
+  },
+  "actions": {
+    "try_again": "Try again",
+    "browse_journal": "Browse Journal",
+    "load_more": "Load more"
+  },
+  "loading": "Loading...",
+  "error": {
+    "loading_journals": "Sorry, an error occurred while loading journals"
+  }
+}

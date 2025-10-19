@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "node --max-old-space-size=4096 .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.1.0",
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "element-plus": "^2.11.2",
+    "glightbox": "^3.3.1",
+    "nuxt": "^4.0.3",
+    "swiper": "^11.2.10",
+    "vant": "^4.9.21",
+    "vue": "^3.5.20",
+    "vue-i18n": "^11.1.11",
+    "vue-router": "^4.5.1"
+  }
+}
