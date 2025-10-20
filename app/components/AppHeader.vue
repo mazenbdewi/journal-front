@@ -42,9 +42,12 @@
           </button>
         </div>
 
-        <NuxtLink class="login-btn desktop-only" to="/login">
+        <a
+          class="login-btn desktop-only"
+          :href="config.public.apiBase + '/adminpanel'"
+        >
           <i class="bi bi-box-arrow-in-right"></i>
-        </NuxtLink>
+        </a>
 
         <button class="mobile-nav-toggle" @click="toggleMobileNav">
           <div class="hamburger" :class="{ active: mobileNavOpen }">
