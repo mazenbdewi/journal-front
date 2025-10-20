@@ -49,7 +49,7 @@ export default defineNuxtConfig({
   
     runtimeConfig: {
     public: {
-      apiBase: 'http://127.0.0.1:8000'
+      apiBase: 'http://172.16.45.111'
     }
   },
   routeRules: {
